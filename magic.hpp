@@ -1,6 +1,5 @@
 #ifndef MAGIC_HPP
 #define MAGIC_HPP
-#include <type_traits>
 namespace Magic{
 //circle_for_each
 template<typename InputIterator,
