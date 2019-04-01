@@ -146,6 +146,6 @@ template<typename T1,
 struct is_all_same<T1, T2, Tn...>{
     constexpr static bool value = is_all_same<T1, T2>::value && is_all_same<T2, Tn...>::value;
 };
-
+//expect some future change
 }
 #endif // MAGIC_HPP
